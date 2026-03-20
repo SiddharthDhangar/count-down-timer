@@ -78,7 +78,7 @@ src/
 
 ## 🚀 Clone & Run the Project
 
-git clone https://github.com/your-username/countdown-timer.git
+git clone https://github.com/SiddharthDhangar/countdown-timer.git
 
 cd countdown-timer
 
