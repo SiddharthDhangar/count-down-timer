@@ -1,8 +1,87 @@
-# React + Vite
+# ⏱️ Countdown Timer (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
 
-Currently, two official plugins are available:
+This is a simple and interactive **Countdown Timer** built using React.
+Users can enter a time value, start the timer, and see real-time countdown updates.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The UI is divided into two sections:
+
+* **Input Section** → to enter time and start the timer
+* **Display Section** → to show countdown and control buttons
+
+---
+
+## ⚙️ Features
+
+* ⏱️ User input for custom countdown time
+* ▶️ Start timer
+* ⏸️ Resume timer
+* 🔄 Reset timer
+* 🔢 Real-time dynamic updates
+* 🧩 Clean UI with separate components
+
+---
+
+## 🛠️ Tech Stack
+
+* React (useState, useEffect)
+* JavaScript (ES6)
+* HTML
+* CSS
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository
+   git clone https://github.com/your-username/countdown-timer.git
+
+2. Go to project folder
+   cd countdown-timer
+
+3. Install dependencies
+   npm install
+
+4. Start the project
+   npm run dev
+
+---
+
+## 📂 Project Structure
+```
+src/
+├── components/
+│    ├── InputTimer.jsx
+│    ├── ShowTimer.jsx
+│    ├── HandleResume.jsx
+│    ├── HandlePaused.jsx
+│    ├── HandleReset.jsx
+├── App.jsx
+└── main.jsx
+```
+---
+
+## 🎯 How It Works
+
+1. Enter time in input field
+2. Click **Start** button
+3. Timer starts counting down
+4. Time updates every second
+5. Use:
+
+   * Resume → continue timer
+   * Reset → restart timer
+
+---
+
+
+## 🚀 Clone & Run the Project
+
+git clone https://github.com/your-username/countdown-timer.git
+
+cd countdown-timer
+
+npm install
+
+npm run dev
