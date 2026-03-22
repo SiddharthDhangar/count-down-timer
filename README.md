@@ -1,87 +1,99 @@
-# ⏱️ Countdown Timer (React)
+# ⏳ Countdown Timer (React)
 
-## 📌 Description
+## 📌 Overview
 
-This is a simple and interactive **Countdown Timer** built using React.
-Users can enter a time value, start the timer, and see real-time countdown updates.
-
-The UI is divided into two sections:
-
-* **Input Section** → to enter time and start the timer
-* **Display Section** → to show countdown and control buttons
+This is a simple and user-friendly **Countdown Timer** application built using React. It allows users to input time in **HH:MM:SS format** and control the timer using **Start, Pause, Resume, and Reset** functionalities.
 
 ---
 
-## ⚙️ Features
+## 🚀 Features
 
-* ⏱️ User input for custom countdown time
-* ▶️ Start timer
-* ⏸️ Resume timer
-* 🔄 Reset timer
-* 🔢 Real-time dynamic updates
-* 🧩 Clean UI with separate components
+* ⏱️ Input time in **Hours : Minutes : Seconds (HH:MM:SS)**
+* ▶️ Start the countdown timer
+* ⏸️ Pause the timer anytime
+* 🔄 Resume the timer from where it was paused
+* 🔁 Reset the timer to initial state
+* ⚡ Real-time countdown display
+* 🎨 Clean and responsive UI using Tailwind CSS
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React (useState, useEffect)
-* JavaScript (ES6)
-* HTML
-* CSS
+* React (Functional Components + Hooks)
+* JavaScript (ES6+)
+* Tailwind CSS
+* Vite (for fast development)
 
 ---
 
-## 🚀 How to Run
+## 📁 Folder Structure
 
-1. Clone the repository
-   git clone https://github.com/your-username/countdown-timer.git
-
-2. Go to project folder
-   cd countdown-timer
-
-3. Install dependencies
-   npm install
-
-4. Start the project
-   npm run dev
-
----
-
-## 📂 Project Structure
 ```
-src/
-├── components/
-│    ├── InputTimer.jsx
-│    ├── ShowTimer.jsx
-│    ├── HandleResume.jsx
-│    ├── HandlePaused.jsx
-│    ├── HandleReset.jsx
-├── App.jsx
-└── main.jsx
+CountdownTimer/
+│
+├── node_modules/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── HandlePaused.jsx
+│   │   ├── HandleReset.jsx
+│   │   ├── HandleResume.jsx
+│   │   ├── InputTimer.jsx
+│   │   ├── ShowTimer.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
 ```
----
-
-## 🎯 How It Works
-
-1. Enter time in input field
-2. Click **Start** button
-3. Timer starts counting down
-4. Time updates every second
-5. Use:
-
-   * Resume → continue timer
-   * Reset → restart timer
 
 ---
 
+## ⚙️ How It Works
 
-## 🚀 Clone & Run the Project
+1. User enters time in **HH:MM:SS format**
+2. Clicks on **Start**
+3. Timer begins countdown
+4. User can:
 
-git clone https://github.com/SiddharthDhangar/countdown-timer.git
+   * Pause the timer
+   * Resume from paused state
+   * Reset the timer anytime
 
+---
+
+## 📥 Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/your-username/countdown-timer.git
+```
+
+### 2️⃣ Navigate to project folder
+
+```
 cd countdown-timer
+```
 
+### 3️⃣ Install dependencies
+
+```
 npm install
+```
 
+### 4️⃣ Run the project
+
+```
 npm run dev
+```
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub!
